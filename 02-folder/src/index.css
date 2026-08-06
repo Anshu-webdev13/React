@@ -1,0 +1,26 @@
+h2 {
+  color: blue;
+}
+.card {
+  background-color: aqua;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+}
+ul li {
+  list-style: none;
+ 
+}
+.nav {
+  background-color: blueviolet;
+  color: white;
+  height: 50px;
+  
+}
+ul{
+  height: 100%;
+ display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
