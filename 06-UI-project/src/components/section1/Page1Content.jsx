@@ -4,7 +4,7 @@ import Right from "./Right";
 
 const Page1Content = () => {
   return (
-    <div className=" py-10  gap-10 h-[90vh]  bg-amber-600 flex items-center">
+    <div className=" px-10 py-10  gap-10 h-[90vh]  flex items-center">
       <Left />
       <Right />
     </div>
