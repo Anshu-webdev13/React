@@ -1,15 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
-  function btnClicked() {
-    console.log("Btn is clicked");
-  }
+  const onchanging = (val) => {
+    console.log(val);
+  };
   return (
-    
     <div>
-      <button  onClick={btnClicked}>Click me</button>
+      <input
+        onChange={function (elem) {
+          onchanging(elem.target.value);
+        }}
+        type="text"
+        placeholder="Enter the value"
+      />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
