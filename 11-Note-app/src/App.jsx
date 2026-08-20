@@ -36,7 +36,7 @@ const App = () => {
           }}
         />
         <textarea
-          type="text"
+
           placeholder="Enter the details of notes"
           className="flex px-5 py-2 h-32 flex-row w-full font-medium border-2 outline-none rounded items-start"
           value={detail}
@@ -44,7 +44,7 @@ const App = () => {
             setDetail(e.target.value);
           }}
         />
-        <button className="flex px-5 py-2 flex-row w-full font-medium  bg-white text-black  border-2 outline-none rounded text-center">
+        <button className="flex justify-center px-5 py-2 w-full font-medium bg-white text-black border-2 outline-none rounded">
           Add Notes
         </button>
       </form>
