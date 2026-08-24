@@ -1,12 +1,18 @@
-import React from 'react'
-
+import React from "react";
 
 const App = () => {
+  const getData = async () => {
+    const response = await fetch("https://dummyjson.com/posts");
+
+    const data = await response.json();
+    console.log(data);
+  };
+
   return (
     <div>
-      App
+      <button onClick={getData}>Click me</button>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
