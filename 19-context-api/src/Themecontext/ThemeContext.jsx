@@ -1,11 +1,11 @@
 import React from 'react'
 import { createContext } from 'react'
 
-const ThemeContext = () => {
+const ThemeContext = (props) => {
   const themeDataContext =  createContext()
   return (
     <div>
-      <themeDataContext.Provider>
+      <themeDataContext.Provider value='Anshu'>
         {props.children}
       </themeDataContext.Provider>
     </div>
